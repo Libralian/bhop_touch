@@ -13,7 +13,7 @@ public plugin_init()
 	RegisterHam(Ham_Touch, "func_door_rotating", "TouchBlocks", 0);
 	RegisterHam(Ham_Touch, "trigger_multiple", "TouchBlocks", 0);
 
-	register_clcmd("kicked_on_off", "OnOffBlocks");
+	register_clcmd("blocks_on_off", "OnOffBlocks");
 }
 
 public OnOffBlocks(id)
